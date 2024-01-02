@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/nguyenvominhkhoi/Desktop/PythonProject",
-      "program": "/Users/nguyenvominhkhoi/Desktop/PythonProject/build/Debug/outDebug"
+      "cwd": "/Users/nguyenvominhkhoi/Desktop/Programming/WarmUpExercise4",
+      "program": "/Users/nguyenvominhkhoi/Desktop/Programming/WarmUpExercise4/build/Debug/outDebug"
     }
   ]
 }

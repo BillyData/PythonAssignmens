@@ -3,11 +3,11 @@ import pytest
 
 
 def exercise1():
-    while (1):
+    while 1:
         a = input("Input the first number : ")
         b = input("Input the second number : ")
 
-        if (is_int(a) == False or is_int(b) == False):
+        if is_int(a) == False or is_int(b) == False:
             print("Please enter valid input")
             continue
 
@@ -18,7 +18,10 @@ def exercise1():
         print(sum2ints(a, b))
         print(mul2ints(a, b))
         s = div2ints(a, b)
-        if (s == "Divided by 0, please enter a valid number" or s == "The number rounded up does not have 2 digits after decimal"):
+        if (
+            s == "Divided by 0, please enter a valid number"
+            or s == "The number rounded up does not have 2 digits after decimal"
+        ):
             continue
         else:
             print(s)
